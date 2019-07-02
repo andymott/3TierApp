@@ -1,0 +1,6 @@
+---
+# Install & configure 3 tier application
+- import_playbook: configure_repos.yml
+- import_playbook: install_haproxy.yml
+- import_playbook: install_tomcat.yml
+- import_playbook: install_postgres.yml
